@@ -1,0 +1,26 @@
+.component{
+    
+    position: relative;
+    transition: all ease-in 0.2s;
+    &::after{
+        content: '';
+        position: absolute;
+        opacity: 0;
+        transition: all ease-in 0.2s;
+        height: 2px;
+        width: 100%;
+        bottom: -21px;
+        left: 0;
+
+        background-color: rgb(175, 28, 28);
+    }
+    
+    &:hover{
+        color:brown
+    }
+    &:hover:after{
+        opacity: 100%;
+    }
+    text-decoration: none;
+    color:white;
+}
