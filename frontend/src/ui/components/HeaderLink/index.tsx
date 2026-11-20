@@ -1,17 +1,7 @@
 import style from './style.module.css'
+import type { Props } from './types'
 
 
-type Props = {
-    /**
-     * сслык адля перехода 
-     */
-    href: string;
-    /**
-     * наполенение 
-     */
-    text: string
-
-}
 
 
 export const HeaderLink:React.FC<Props> = ({
