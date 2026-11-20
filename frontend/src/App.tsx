@@ -13,6 +13,7 @@ function App() {
       </Header>
       <main>
         <Button label='asxcvxcvxd' disabled></Button>
+        <Button label='купить aegis por super mega light example 1000vlt vouy anus-burger'></Button>
         <Main />
       </main>
       

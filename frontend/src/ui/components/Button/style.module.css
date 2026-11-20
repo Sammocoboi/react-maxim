@@ -1,6 +1,12 @@
+.component{
+    transition: all ease-in 0.3s;
+}
 .primary{
     background-color: black;  
     color: white;
+    &:hover:not(:disabled){
+        background-color:grey;
+    }
 
 }
 
@@ -11,6 +17,7 @@
 
 .component:disabled{
     opacity: 25%;
+    
 }
 .medium{
 height: 50px;
