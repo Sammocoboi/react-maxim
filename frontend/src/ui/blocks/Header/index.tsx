@@ -20,7 +20,7 @@ export const Header:React.FC = () => {
             </img>
 
             <nav className="flex g-4">
-                <HeaderLink href="" text="о нас"/>
+                <HeaderLink href="/catalog" text="о нас"/>
                 <HeaderLink href="" text="жижки"/>
                 <HeaderLink href="" text="вейпы"/>
                

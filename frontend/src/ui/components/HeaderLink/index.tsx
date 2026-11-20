@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import style from './style.module.css'
 import type { Props } from './types'
 
@@ -9,10 +10,10 @@ export const HeaderLink:React.FC<Props> = ({
     text,
 }) =>{
     return(
-        <a 
+        <Link
         className={style.component}
-        href={href}>
+        to={href}>
             {text}   
-        </a>
+        </Link>
     )
 }

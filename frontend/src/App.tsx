@@ -1,27 +1,26 @@
 
+import { Route, Routes } from 'react-router'
 import './App.css'
 import { Header } from './ui/blocks/Header'
-import { Main } from './ui/blocks/main'
-import { Button } from './ui/components/Button'
+
+import { Mainpage } from './ui/pages/mainPage'
+import { Catalog } from './ui/pages/catalog'
 function App() {
   
 
   return (
     <>
-      <Header>
+   
+     
+     <Routes>
+      <Route path='/' element={<Mainpage/>}
+      />
+      <Route path='/catalog/' element={<Catalog/>}
+     />
+    </Routes>
+        <footer>
 
-      </Header>
-      <main>
-        <Button label='asxcvxcvxd' disabled></Button>
-        <Button label='купить aegis por super mega light example 1000vlt vouy anus-burger'></Button>
-        <Main />
-      </main>
-      
-
-      
-      <footer>
-
-      </footer>
+        </footer>
     </>
   )
 }
